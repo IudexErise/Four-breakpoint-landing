@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./source/styles/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="./source/styles/index.css">
     <title>Путешествия по России</title>
 </head>
 
@@ -14,23 +14,23 @@
         <div class="header-contents">
             <img src="./source/images/header/header-logo.svg">
             <div class="header-contents_language-block">
-                <span class="header-contents_language-block_link">Ru</span>
-                <span class="header-contents_language-block_link">En</span>
+                <a class="header-contents_language-block_link active">Ru</a>
+                <a class="header-contents_language-block_link">En</a>
             </div>
         </div>
     </header>
 
     <main>
         <div class="container">
-            <div class="container_train">
-                <h1>Путешествия <br> по России</h1>
-                <span>Настоящая страна не в выпусках новостей, а здесь.</span>
-                <img src="./source/images/container_train/train.png">
-                <span>Ваша полка - верхняя</span>
-            </div>
-            <div class="container_stats">
-                <h3>Чего мы там не видели?</h3>
-                <p>
+            <section class="container_train">
+                <h1 class="container_train_headline">Путешествия <br> по России</h1>
+                <span class="container_train_sub-headline">Настоящая страна не в выпусках <br> новостей, а здесь.</span>
+                <img class="container_train_image" src="./source/images/container_train/train.png">
+                <span class="container_train_image-subtext">Ваша полка - верхняя</span>
+            </section>
+            <section class="container_stats">
+                <h3 class="container_stats_headline">Чего мы там не видели?</h3>
+                <p class="container_stats_text">
                     По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в
                     родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с
                     ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти
@@ -46,8 +46,8 @@
                     <span>Природных заповедников 105</span>
                     <span>Аэропортов 241</span>
                 </div>
-            </div>
-            <div class="container_pictures-display">
+            </section>
+            <section class="container_pictures-display">
                 <img src="./source/images/container_pictures-display/1.png">
                 <img src="./source/images/container_pictures-display/2.png">
                 <img src="./source/images/container_pictures-display/3.png">
@@ -60,8 +60,8 @@
                 <img src="./source/images/container_pictures-display/10.png">
                 <img src="./source/images/container_pictures-display/11.png">
                 <img src="./source/images/container_pictures-display/12.png">
-            </div>
-            <div class="container_localities">
+            </section>
+            <section class="container_localities">
                 <div class="container_localities_item">
                     <h2>Куршская коса</h2>
                     <div>
@@ -166,11 +166,11 @@
                         </p>
                     </div>
                 </div>
-            </div>
-            <div class="container_poster">
+            </section>
+            <section class="container_poster">
                 <h2>До Байкала «на собаках»</h2>
                 <p>По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-            </div>
+            </section>
         </div>
     </main>
     <footer>

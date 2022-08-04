@@ -1,5 +1,7 @@
-.header_contents {
+.header-contents {
     width: 1184px;
     height: 52px;
     display: flex;
+    margin: 28px auto 56px auto;
+    justify-content: space-between;
 }

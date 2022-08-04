@@ -1,0 +1,6 @@
+.header-contents_language-block {
+    display: flex;
+    justify-content: space-between;
+    width: 77px;
+    align-items: flex-end;
+}
