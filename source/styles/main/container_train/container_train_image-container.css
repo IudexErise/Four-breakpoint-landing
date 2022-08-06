@@ -1,7 +1,5 @@
-.container_stats {
+.container_train_image-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 984px;
-    margin: 0 auto 92px auto;
 }

@@ -1,3 +1,7 @@
 .container_stats_numbers {
-    
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
 }

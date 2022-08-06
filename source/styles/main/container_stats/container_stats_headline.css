@@ -1,3 +1,10 @@
 .container_stats_headline {
-    
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    color: white;
+    margin-top: 92px;
+    margin-bottom: 40px;
+    align-self: center;
 }

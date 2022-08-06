@@ -1,0 +1,8 @@
+.container_pictures-display {
+    display: grid;
+    margin: 0 auto 92px auto;
+    width: 1184px;
+    height: 761px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
