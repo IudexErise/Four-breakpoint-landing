@@ -1,0 +1,39 @@
+.container_poster {
+    background-image: url(../../../images/container_poster/background.png);
+    background-size: cover;
+    width: 1184px;
+    height: 760px;
+    margin-top: 12px;
+    margin-bottom: 92px;
+    margin: 12px auto 92px auto;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    position: relative;
+}
+
+.container_poster::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+
+.container_poster:hover {
+    cursor: pointer;
+}
+
+.container_poster:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}

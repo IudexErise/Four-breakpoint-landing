@@ -1,0 +1,29 @@
+@media (min-width: 768px) {
+    .footer-contents_links_item {
+        font-family: 'Inter';
+        font-size: 16px;
+        line-height: 18px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .footer-contents_links_item:hover {
+        cursor: pointer;
+        opacity: 0.8;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-contents_links_item {
+        font-family: 'Inter';
+        font-size: 24px;
+        line-height: 24px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .footer-contents_links_item:hover {
+        cursor: pointer;
+        opacity: 0.8;
+    }
+}

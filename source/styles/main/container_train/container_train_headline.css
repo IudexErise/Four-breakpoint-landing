@@ -1,9 +1,23 @@
-.container_train_headline {
-    font-family: 'Inter';
-    font-weight: 900;
-    font-size: 96px;
-    line-height: 100px;
-    text-align: center;
-    margin: 0px 0px 32px 0px;
-    color: white;
+@media (min-width: 768px) {
+    .container_train_headline {
+        font-family: 'Inter';
+        font-weight: 900;
+        font-size: 96px;
+        line-height: 100px;
+        text-align: center;
+        margin: 0px 0px 32px 0px;
+        color: white;
+    }
+}
+
+@media (max-width: 767px) {
+    .container_train_headline {
+        font-family: 'Inter';
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 44px;
+        text-align: center;
+        margin: 0px 0px 16px 0px;
+        color: white;
+    }
 }

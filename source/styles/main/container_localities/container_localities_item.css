@@ -1,0 +1,8 @@
+.container_localities_item {
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    column-gap: 40px;
+    grid-template-rows: auto auto;
+    row-gap: 48px;
+    margin-bottom: 80px;
+}

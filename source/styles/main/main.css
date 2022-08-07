@@ -1,4 +1,4 @@
-@import './container.css';
+@import './container/container.css';
 
 @import './container_train/container_train.css';
 @import './container_train/container_train_headline.css';
@@ -13,3 +13,17 @@
 @import './container_stats/container_stats_numbers.css';
 
 @import './container_pictures-display/container_pictures-display.css';
+
+@import './container_localities/container_localities.css';
+@import './container_localities/container_localities_item.css';
+@import './container_localities/container_localities_item_headline.css';
+@import './container_localities/container_localities_item_link-container.css';
+@import './container_localities/container_localities_item_link-container_url.css';
+@import './container_localities/container_localities_item_link-container_link.css';
+@import './container_localities/container_localities_item_description.css';
+
+@import './container_poster/container_poster.css';
+@import './container_poster/container_poster_link.css';
+@import './container_poster/container_poster_headline.css';
+@import './container_poster/container_poster_sub-headline.css';
+

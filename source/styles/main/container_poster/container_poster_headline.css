@@ -1,0 +1,10 @@
+.container_poster_headline {
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    text-align: center;
+    color: white;
+    margin-top: 245px;
+    margin-bottom: 32px;
+}

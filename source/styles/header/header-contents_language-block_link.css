@@ -1,10 +1,51 @@
-.header-contents_language-block_link {
-    font-family: 'Inter';
-    font-size: 24px;
-    line-height: 28px;
-    color: white;
+@media (min-width: 1280px) {
+    .header-contents_language-block_link {
+        font-family: 'Inter';
+        font-size: 24px;
+        line-height: 28px;
+        color: white;
+    }
+    
+    .header-contents_language-block_link.active {
+        text-decoration: underline;
+    }
 }
 
-.header-contents_language-block_link.active {
-    text-decoration: underline;
+@media (max-width: 1279px) {
+    .header-contents_language-block_link {
+        font-family: 'Inter';
+        font-size: 24px;
+        line-height: 28px;
+        color: white;
+    }
+    
+    .header-contents_language-block_link.active {
+        text-decoration: underline;
+    }
+}
+
+@media (max-width: 1023px) {
+    .header-contents_language-block_link {
+        font-family: 'Inter';
+        font-size: 24px;
+        line-height: 28px;
+        color: white;
+    }
+    
+    .header-contents_language-block_link.active {
+        text-decoration: underline;
+    }
+}
+
+@media (max-width: 767px) {
+    .header-contents_language-block_link {
+        font-family: 'Inter';
+        font-size: 18px;
+        line-height: 20px;
+        color: white;
+    }
+    
+    .header-contents_language-block_link.active {
+        text-decoration: underline;
+    }
 }

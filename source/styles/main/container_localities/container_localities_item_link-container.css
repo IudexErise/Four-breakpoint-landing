@@ -1,0 +1,5 @@
+.container_localities_item_link-container {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}

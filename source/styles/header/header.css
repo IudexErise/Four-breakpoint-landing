@@ -2,8 +2,3 @@
 @import './header-contents_language-block.css';
 @import './header-contents_language-block_link.css';
 
-header {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1184px;
-}

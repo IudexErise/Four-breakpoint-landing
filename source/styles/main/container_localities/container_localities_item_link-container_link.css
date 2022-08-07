@@ -1,0 +1,12 @@
+.container_localities_item_link-container_link {
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: white;
+}
+
+.container_localities_item_link-container_link:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
