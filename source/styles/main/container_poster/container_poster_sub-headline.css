@@ -1,7 +1,20 @@
-.container_poster_sub-headline {
-    font-family: 'Inter';
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    color: white;
+@media (min-width: 768px) {
+    .container_poster_sub-headline {
+        font-family: 'Inter';
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: white;
+    } 
+}
+
+
+@media (max-width: 767px) {
+    .container_poster_sub-headline {
+        font-family: 'Inter';
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: white;
+    }
 }

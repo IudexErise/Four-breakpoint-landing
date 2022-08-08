@@ -1,10 +1,51 @@
-.container_poster_headline {
-    font-family: 'Inter';
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 76px;
-    text-align: center;
-    color: white;
-    margin-top: 245px;
-    margin-bottom: 32px;
+@media (min-width: 1280px) {
+    .container_poster_headline {
+        font-family: 'Inter';
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 76px;
+        text-align: center;
+        color: white;
+        margin-top: 245px;
+        margin-bottom: 32px;
+    }
+}
+
+@media (max-width: 1279px) {
+    .container_poster_headline {
+        font-family: 'Inter';
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 76px;
+        text-align: center;
+        color: white;
+        margin-top: 195px;
+        margin-bottom: 32px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .container_poster_headline {
+        font-family: 'Inter';
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 76px;
+        text-align: center;
+        color: white;
+        margin-top: 115px;
+        margin-bottom: 32px;
+    } 
+}
+
+@media (max-width: 767px) {
+    .container_poster_headline {
+        font-family: 'Inter';
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+        text-align: center;
+        color: white;
+        margin-top: 33px;
+        margin-bottom: 16px;
+    }   
 }

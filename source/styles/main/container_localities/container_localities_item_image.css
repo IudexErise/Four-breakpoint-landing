@@ -1,0 +1,27 @@
+@media (min-width: 1280px) {
+    .container_localities_item_image {
+        width: 460px;
+        height: 460px;
+    }    
+}
+
+@media (max-width: 1279px) {
+    .container_localities_item_image {
+        width: 440px;
+        height: 440px;
+    }    
+}
+
+@media (max-width: 1023px) {
+    .container_localities_item_image {
+        width: 340px;
+        height: 340px;
+    }    
+}
+
+@media (max-width: 767px) {
+    .container_localities_item_image {
+        width: 320px;
+        height: 320px;
+    }    
+}
